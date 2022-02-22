@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+
+.box {
+   background-color: #0f0;
+   width: 350px;
+   height: 220px;
+   border: 2px dashed #f00;
+   padding: 15px 10px 20px;
+   margin: 0 auto 30px;
+}
+
+.text-block {
+   max-width: 600px;
+   margin: 0 auto;
+   text-align: justify;
+}
+
+.img-left {
+   float: left;
+   margin: 0 15px 5px 0;
+   max-width: 25%;
+}
+
+.img-right {
+   float: right;
+   margin: 10px 0 10px 15px;
+   max-width: 25%;
+}
